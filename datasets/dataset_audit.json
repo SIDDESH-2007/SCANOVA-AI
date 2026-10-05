@@ -1,0 +1,17 @@
+{
+    "xray": {
+        "total_images": 0,
+        "classes": {},
+        "splits": {}
+    },
+    "mri": {
+        "total_images": 0,
+        "classes": {},
+        "splits": {}
+    },
+    "ct": {
+        "total_images": 0,
+        "classes": {},
+        "splits": {}
+    }
+}

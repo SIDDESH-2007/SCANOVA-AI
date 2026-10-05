@@ -1,0 +1,49 @@
+{
+    "X-RAY": {
+        "classifier": {
+            "trained": true,
+            "checkpoint": "d:/RADIOLOGY ASSISTANT MINIPROJECT/ai_model/xray/saved_models/xray_densenet121.pth",
+            "classes": [
+                "NORMAL",
+                "PNEUMONIA"
+            ]
+        },
+        "localizer": {
+            "trained": false,
+            "checkpoint": null,
+            "annotationType": null
+        }
+    },
+    "MRI": {
+        "classifier": {
+            "trained": true,
+            "checkpoint": "d:/RADIOLOGY ASSISTANT MINIPROJECT/ai_model/mri/saved_models/mri_brain_tumor.pth",
+            "classes": [
+                "glioma",
+                "meningioma",
+                "notumor",
+                "pituitary"
+            ]
+        },
+        "localizer": {
+            "trained": false,
+            "checkpoint": null,
+            "annotationType": null
+        }
+    },
+    "CT": {
+        "classifier": {
+            "trained": true,
+            "checkpoint": "d:/RADIOLOGY ASSISTANT MINIPROJECT/ai_model/ct/saved_models/ct_densenet121.pth",
+            "classes": [
+                "NORMAL",
+                "HEMORRHAGE"
+            ]
+        },
+        "localizer": {
+            "trained": false,
+            "checkpoint": null,
+            "annotationType": null
+        }
+    }
+}
